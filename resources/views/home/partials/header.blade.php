@@ -7,8 +7,8 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="#home">Home</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#service">Service</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#service">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#contact">About Us</a></li>
                 </ul>

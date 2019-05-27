@@ -44,50 +44,6 @@
 @include('home.partials.banner')
 @include('home.partials.activities')
 
-<!-- Start offered Area -->
-<section class="offered-area section-gap" id="offered">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-60 col-lg-8">
-                <div class="title text-center">
-                    <h1 class="mb-10">Some Features that Made us Unique</h1>
-                    <p>Who are in extremely love with eco friendly system.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="single-offered">
-                    <img class="img-fluid" src="{{ asset('template-styles/img/s1.png') }}" alt="">
-                    <a href="#"><h4 class="pt-20 pb-20">Basic & Common Repairs</h4></a>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="single-offered">
-                    <img class="img-fluid" src="{{ asset('template-styles/img/s2.png') }}" alt="">
-                    <a href="#"><h4 class="pt-20 pb-20">Brake Repairs & Services</h4></a>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="single-offered">
-                    <img class="img-fluid" src="{{ asset('template-styles/img/s3.png') }}" alt="">
-                    <a href="#"><h4 class="pt-20 pb-20">Preventive Maintenance</h4></a>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End offered Area -->
-
 <!-- Start projects Area -->
 <section class="projects-area pb-100" id="project">
     <div class="container-fluid">
@@ -102,7 +58,7 @@
         <div class="row">
             <div class="active-project-carusel col-lg-12">
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p1.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house3.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -112,7 +68,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p2.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house4.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -122,7 +78,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p3.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house5.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -132,7 +88,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p4.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house6.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -142,7 +98,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p1.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house7.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -152,7 +108,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p2.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house8.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -162,7 +118,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p3.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house9.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -172,7 +128,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="single-project" style="background: url(img/p4.jpg);">
+                    <div class="single-project" style="background: url({{ asset('images/house10.jpg') }});">
                         <div class="overlay overlay-content">
                             <h1>Alex Complex for <br> esidence</h1>
                             <p>
@@ -181,7 +137,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -199,14 +154,6 @@
             <div class="col single-fact">
                 <h1 class="counter">6784</h1>
                 <p>Really Happy Clients</p>
-            </div>
-            <div class="col single-fact">
-                <h1 class="counter">1059</h1>
-                <p>Total Tasks Completed</p>
-            </div>
-            <div class="col single-fact">
-                <h1 class="counter">2239</h1>
-                <p>Cups of Coffee Taken</p>
             </div>
             <div class="col single-fact">
                 <h1 class="counter">435</h1>
@@ -319,85 +266,6 @@
     </div>
 </section>
 <!-- End testimonial Area -->
-
-<!-- Start latest-blog Area -->
-<section class="latest-blog-area section-gap" id="blog">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-60 col-lg-8">
-                <div class="title text-center">
-                    <h1 class="mb-10">Latest From Blog</h1>
-                    <p>Who are in extremely love with eco friendly system.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="blog-left col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <img class="mx-auto d-block img-fluid" src="{{ asset('template-styles/img/b1.jpg') }}" alt="">
-                    <div class="desc">
-                        <a href="#"><h5>We do Believe in Quality</h5></a>
-                        <p>
-                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards.
-                        </p>
-                        <a class="read-more text-uppercase" href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-left col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <img class="mx-auto d-block img-fluid" src="{{ asset('template-styles/img/b2.jpg') }}" alt="">
-                    <div class="desc">
-                        <a href="#"><h5>We do Believe in Quality</h5></a>
-                        <p>
-                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards.
-                        </p>
-                        <a class="read-more text-uppercase" href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-right col-lg-4 col-md-6">
-                <div class="single-list justify-content-start d-flex">
-                    <div class="thumb">
-                        <img src="{{ asset('template-styles/img/b3.jpg') }}" alt="">
-                    </div>
-                    <div class="details">
-                        <a href="#"><h6>We Believe in Quality</h6></a>
-                        <p>21st Dec  04 Comments</p>
-                    </div>
-                </div>
-                <div class="single-list justify-content-start d-flex">
-                    <div class="thumb">
-                        <img src="{{ asset('template-styles/img/b4.jpg') }}" alt="">
-                    </div>
-                    <div class="details">
-                        <a href="#"><h6>We Believe in Quality</h6></a>
-                        <p>21st Dec  04 Comments</p>
-                    </div>
-                </div>
-                <div class="single-list justify-content-start d-flex">
-                    <div class="thumb">
-                        <img src="{{ asset('template-styles/img/b5.jpg') }}" alt="">
-                    </div>
-                    <div class="details">
-                        <a href="#"><h6>We Believe in Quality</h6></a>
-                        <p>21st Dec  04 Comments</p>
-                    </div>
-                </div>
-                <div class="single-list justify-content-start d-flex">
-                    <div class="thumb">
-                        <img src="{{ asset('template-styles/img/b6.jpg') }}" alt="">
-                    </div>
-                    <div class="details">
-                        <a href="#"><h6>We Believe in Quality</h6></a>
-                        <p>21st Dec  04 Comments</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End latest-blog Area -->
 
 <!-- Start brand Area -->
 <section class="brand-area">
