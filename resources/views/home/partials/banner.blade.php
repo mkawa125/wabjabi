@@ -19,7 +19,7 @@
                 <p class="text-white">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br> or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                 </p>
-                <a href="#" class="primary-btn header-btn text-uppercase">Get in touch</a>
+                <a href="#contact" class="primary-btn header-btn text-uppercase">send us message <i class="fa fa-send"></i></a>
             </div>
         </div>
     </div>
