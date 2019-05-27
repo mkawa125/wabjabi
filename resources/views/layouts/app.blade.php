@@ -23,28 +23,28 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>Construction</title>
+    <title>Wabjab - home</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--
     CSS
     ============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/linearicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('template-styles/css/main.css') }}">
 </head>
 <body>
 
-<header id="header" id="home">
+<header id="header">
     <div class="container">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+                <a href="index.html"><img src="{{ asset('template-styles/img/logo.png') }}" alt="" title="" /></a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
@@ -52,14 +52,8 @@
                     <li><a href="#feature">Feature</a></li>
                     <li><a href="#project">Project</a></li>
                     <li><a href="#service">Service</a></li>
-                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li class="menu-has-children"><a href="">Pages</a>
-                        <ul>
-                            <li><a href="generic.html">Generic</a></li>
-                            <li><a href="elements.html">Elements</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#contact">About Us</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
@@ -67,7 +61,7 @@
 </header><!-- #header -->
 
 <!-- start banner Area -->
-<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="img/header-bg.jpg">
+<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="{{ asset('images/house6.jpg') }}">
     <div class="overlay-bg overlay"></div>
     <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-center">
@@ -91,21 +85,21 @@
     <div class="container"><div class="feature-section">
             <div class="row">
                 <div class="single-feature col-lg-4">
-                    <img src="img/f1.png" alt="">
+                    <img src="{{ asset('template-styles/img/f1.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Building Drawings</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="single-feature col-lg-4">
-                    <img src="img/f2.png" alt="">
+                    <img src="{{ asset('template-styles/img/f2.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Building Drawings</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="single-feature col-lg-4">
-                    <img src="img/f3.png" alt="">
+                    <img src="{{ asset('template-styles/img/f3.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Building Drawings</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -131,7 +125,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="single-offered">
-                    <img class="img-fluid" src="img/s1.png" alt="">
+                    <img class="img-fluid" src="{{ asset('template-styles/img/s1.png') }}" alt="">
                     <a href="#"><h4 class="pt-20 pb-20">Basic & Common Repairs</h4></a>
                     <p>
                         Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
@@ -140,7 +134,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="single-offered">
-                    <img class="img-fluid" src="img/s2.png" alt="">
+                    <img class="img-fluid" src="{{ asset('template-styles/img/s2.png') }}" alt="">
                     <a href="#"><h4 class="pt-20 pb-20">Brake Repairs & Services</h4></a>
                     <p>
                         Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
@@ -149,7 +143,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="single-offered">
-                    <img class="img-fluid" src="img/s3.png" alt="">
+                    <img class="img-fluid" src="{{ asset('template-styles/img/s3.png') }}" alt="">
                     <a href="#"><h4 class="pt-20 pb-20">Preventive Maintenance</h4></a>
                     <p>
                         Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
@@ -365,7 +359,7 @@
             <div class="active-testimonial">
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/user1.png" alt="">
+                        <img class="img-fluid" src="{{ asset('template-styles/img/user1.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>
@@ -377,7 +371,7 @@
                 </div>
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/user2.png" alt="">
+                        <img class="img-fluid" src="{{ asset('template-styles/img/user2.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>
@@ -407,7 +401,7 @@
         <div class="row">
             <div class="blog-left col-lg-4 col-md-6">
                 <div class="single-blog">
-                    <img class="mx-auto d-block img-fluid" src="img/b1.jpg" alt="">
+                    <img class="mx-auto d-block img-fluid" src="{{ asset('template-styles/img/b1.jpg') }}" alt="">
                     <div class="desc">
                         <a href="#"><h5>We do Believe in Quality</h5></a>
                         <p>
@@ -419,7 +413,7 @@
             </div>
             <div class="blog-left col-lg-4 col-md-6">
                 <div class="single-blog">
-                    <img class="mx-auto d-block img-fluid" src="img/b2.jpg" alt="">
+                    <img class="mx-auto d-block img-fluid" src="{{ asset('template-styles/img/b2.jpg') }}" alt="">
                     <div class="desc">
                         <a href="#"><h5>We do Believe in Quality</h5></a>
                         <p>
@@ -432,7 +426,7 @@
             <div class="blog-right col-lg-4 col-md-6">
                 <div class="single-list justify-content-start d-flex">
                     <div class="thumb">
-                        <img src="img/b3.jpg" alt="">
+                        <img src="{{ asset('template-styles/img/b3.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <a href="#"><h6>We Believe in Quality</h6></a>
@@ -441,7 +435,7 @@
                 </div>
                 <div class="single-list justify-content-start d-flex">
                     <div class="thumb">
-                        <img src="img/b4.jpg" alt="">
+                        <img src="{{ asset('template-styles/img/b4.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <a href="#"><h6>We Believe in Quality</h6></a>
@@ -450,7 +444,7 @@
                 </div>
                 <div class="single-list justify-content-start d-flex">
                     <div class="thumb">
-                        <img src="img/b5.jpg" alt="">
+                        <img src="{{ asset('template-styles/img/b5.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <a href="#"><h6>We Believe in Quality</h6></a>
@@ -459,7 +453,7 @@
                 </div>
                 <div class="single-list justify-content-start d-flex">
                     <div class="thumb">
-                        <img src="img/b6.jpg" alt="">
+                        <img src="{{ asset('template-styles/img/b6.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <a href="#"><h6>We Believe in Quality</h6></a>
@@ -477,19 +471,19 @@
     <div class="container">
         <div class="row logo-wrap">
             <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="img/l1.png" alt="">
+                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l1.png') }}" alt="">
             </a>
             <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="img/l2.png" alt="">
+                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l2.png') }}" alt="">
             </a>
             <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="img/l3.png" alt="">
+                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l3.png') }}" alt="">
             </a>
             <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="img/l4.png" alt="">
+                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l4.png') }}" alt="">
             </a>
             <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="img/l5.png" alt="">
+                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l5.png') }}" alt="">
             </a>
         </div>
     </div>
@@ -591,22 +585,22 @@
 </footer>
 <!-- End footer Area -->
 
-<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="{{ asset('template-styles/js/vendor/jquery-2.2.4.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
+<script src="{{ asset('template-styles/js/vendor/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-<script src="js/easing.min.js"></script>
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/mail-script.js"></script>
-<script src="js/main.js"></script>
+<script src="{{ asset('template-styles/js/easing.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/hoverIntent.js') }}"></script>
+<script src="{{ asset('template-styles/js/superfish.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/jquery.ajaxchimp.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/jquery.sticky.js') }}"></script>
+<script src="{{ asset('template-styles/js/jquery.nice-select.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/parallax.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/waypoints.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/jquery.counterup.min.js') }}"></script>
+<script src="{{ asset('template-styles/js/mail-script.js') }}"></script>
+<script src="{{ asset('template-styles/js/main.js') }}"></script>
 </body>
 </html>
