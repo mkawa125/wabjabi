@@ -44,27 +44,6 @@
 @include('home.partials.banner')
 @include('home.partials.activities')
 @include('home.partials.projects')
-<section class="facts-area section-gap">
-    <div class="container">
-        <div class="row">
-            <div class="col single-fact">
-                <h1 class="counter">2536</h1>
-                <p>Projects Completed</p>
-            </div>
-            <div class="col single-fact">
-                <h1 class="counter">6784</h1>
-                <p>Really Happy Clients</p>
-            </div>
-            <div class="col single-fact">
-                <h1 class="counter">435</h1>
-                <p>In House Professionals</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end fact Area -->
-
-
 <!-- Start service Area -->
 <section class="service-area section-gap" id="service">
     <div class="container">

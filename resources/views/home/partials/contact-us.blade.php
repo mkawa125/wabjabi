@@ -45,7 +45,9 @@
                             </div>
                         </div>
                     </div>
-                    <button class="primary-btn" type="submit" style="float: right">Send Message<span class="lnr lnr-arrow-right"></span></button>
+                    <button class="btn btn-primary btn-block" type="submit" style="background-color: #27A7AA">
+                        Send Message <strong class="lnr lnr-arrow-right"></strong>
+                    </button>
                 </div>
 
                 <div class="col-md-6">
