@@ -54,16 +54,15 @@
                     </div>
 
                     <div class="col-md-10 map">
-                        <label><strong>find us on google map</strong></label>
                         <img src="{{ asset('images/map.png') }}" alt="" class="map-box">
                     </div>
 
-                    <div class="col-md-10" style="margin: 0 auto;">
-                        <label><strong style="color: #27A7AA">Contacts details</strong></label>
-                        <p>Address: P.O.BOX 251 DSM</p>
-                        <p>Location: Mombasa Kwa Mkolemba, Dar es salaam, Tanzania</p>
-                        <p>Email Address: wabjabi@gmail.com</p>
-                        <p>Mobile Phone: +255717498658, +255785948250</p>
+                    <div class="col-md-10" style="margin: 15px auto;">
+                        <label><strong style="color: firebrick">Contacts details</strong></label>
+                        <p><i class="fa fa-envelope-open"></i> Address: P.O.BOX 251 DSM</p>
+                        <p><i class="fa fa-map-marker"></i> Location: <strong class="text-success">Mombasa Kwa Mkolemba</strong> , DSM , Tanzania</p>
+                        <p><i class="fa fa-envelope" style="font-size: smaller"></i> Email Address: <strong class="text-primary">wabjabi@gmail.com</strong></p>
+                        <p><i class="fa fa-phone"></i> Mobile Phone: +255717498658, +255785948250</p>
                     </div>
                 </div>
             </div>
