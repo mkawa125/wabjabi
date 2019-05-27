@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
+        <form class="form-area mt-60" id="myForm" action="#" method="post">
             <div class="row">
                 <div class="col-md-6">
                     <div class="" style="margin: 15px 0 15px 0;  font-family: cursive">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="primary-btn" style="float: right">Send Message<span class="lnr lnr-arrow-right"></span></button>
+                    <button class="primary-btn" type="submit" style="float: right">Send Message<span class="lnr lnr-arrow-right"></span></button>
                 </div>
 
                 <div class="col-md-6">

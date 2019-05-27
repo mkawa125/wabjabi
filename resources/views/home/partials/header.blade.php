@@ -12,10 +12,10 @@
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#contact">About Us</a></li>
                 </ul>
-            </nav><!-- #nav-menu-container -->
+            </nav>
         </div>
     </div>
-</header><!-- #header -->
+</header>
 
 
 
