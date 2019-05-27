@@ -40,56 +40,8 @@
 </head>
 <body>
 @include('home.partials.header')
-<!-- start banner Area -->
-<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="{{ asset('images/house6.jpg') }}">
-    <div class="overlay-bg overlay"></div>
-    <div class="container">
-        <div class="row fullscreen d-flex align-items-center justify-content-center">
-            <div class="banner-content col-lg-8 col-md-12">
-                <h4 class="text-white text-uppercase">Discover the Colorful World</h4>
-                <h1 class="text-uppercase">
-                    Build Your Dream
-                </h1>
-                <p class="text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br> or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-                </p>
-                <a href="#" class="primary-btn header-btn text-uppercase">Discover Now</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End banner Area -->
-
-<!-- Start features Area -->
-<section class="features-area pt-100" id="feature">
-    <div class="container"><div class="feature-section">
-            <div class="row">
-                <div class="single-feature col-lg-4">
-                    <img src="{{ asset('template-styles/img/f1.png') }}" alt="">
-                    <h4 class="pt-20 pb-20">Building Drawings</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <div class="single-feature col-lg-4">
-                    <img src="{{ asset('template-styles/img/f2.png') }}" alt="">
-                    <h4 class="pt-20 pb-20">Building Drawings</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-                <div class="single-feature col-lg-4">
-                    <img src="{{ asset('template-styles/img/f3.png') }}" alt="">
-                    <h4 class="pt-20 pb-20">Building Drawings</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End features Area -->
+@include('home.partials.banner')
+@include('home.partials.activities')
 
 <!-- Start offered Area -->
 <section class="offered-area section-gap" id="offered">
