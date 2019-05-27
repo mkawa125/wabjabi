@@ -12,26 +12,61 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-30 col-lg-8">
                 <div class="title text-center">
-                    <h1 class="mb-10">If you need, Just drop us a line</h1>
-                    <p>Who are in extremely love with eco friendly system.</p>
+                    <h1 class="mb-10">Contact us</h1>
+                    <p>If you need, Just drop us a line or find us on a google map below</p>
                 </div>
             </div>
         </div>
         <form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
             <div class="row">
-                <div class="col-lg-6 form-group">
-                    <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-
-                    <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-
-                    <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
-                </div>
-                <div class="col-lg-6 form-group">
-                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-                    <button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
-                    <div class="mt-10 alert-msg">
+                <div class="col-md-6">
+                    <div class="" style="margin: 15px 0 15px 0;  font-family: cursive">
+                        <h4 style="font-family: cursive"><i class="fa fa-envelope"></i> Send us message</h4>
                     </div>
-                </div></div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                            <div class="mt-10 alert-msg">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="primary-btn" style="float: right">Send Message<span class="lnr lnr-arrow-right"></span></button>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="col-md-10" style="margin: 15px auto;  font-family: cursive">
+                        <h4 style="font-family: cursive;">Contact details and location</h4>
+                    </div>
+
+                    <div class="col-md-10 map">
+                        <label><strong>find us on google map</strong></label>
+                        <img src="{{ asset('images/map.png') }}" alt="" class="map-box">
+                    </div>
+
+                    <div class="col-md-10" style="margin: 0 auto;">
+                        <label><strong style="color: #27A7AA">Contacts details</strong></label>
+                        <p>Address: P.O.BOX 251 DSM</p>
+                        <p>Location: Mombasa Kwa Mkolemba, Dar es salaam, Tanzania</p>
+                        <p>Email Address: wabjabi@gmail.com</p>
+                        <p>Mobile Phone: +255717498658, +255785948250</p>
+                    </div>
+                </div>
+            </div>
         </form>
 
     </div>
