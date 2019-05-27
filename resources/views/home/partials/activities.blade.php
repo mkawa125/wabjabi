@@ -22,21 +22,26 @@
                     <img src="{{ asset('template-styles/img/f1.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Plot Loan</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        This loan is provided to all Tanzanian people, Downpayment of plot loan is ranging 5-40% it depends with the project location,
+                        <a href="#">Read More <span class="lnr lnr-arrow-right"></span></a>
                     </p>
                 </div>
                 <div class="single-feature col-lg-4">
                     <img src="{{ asset('template-styles/img/f2.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Farm Loan</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Get your farm and pay in chunk through a year, Downpayment of plot loan is ranging 5-40% it depends with the project location
+                        Loan is provided for 18 months
+                        <a href="#">Read More <span class="lnr lnr-arrow-right"></span></a>
                     </p>
                 </div>
                 <div class="single-feature col-lg-5">
                     <img src="{{ asset('template-styles/img/f3.png') }}" alt="">
                     <h4 class="pt-20 pb-20">Building of houses and apartments loan</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        We provide loan for construction,we build the dream house of the customer, Downpayment is 40% of all cost after estimation
+                        Estimation is done by the company,and the cost is 150,000/= Tsh. Only
+                        <a href="#">Read More <span class="lnr lnr-arrow-right"></span></a>
                     </p>
                 </div>
             </div>
