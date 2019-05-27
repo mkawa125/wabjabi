@@ -266,63 +266,7 @@
     </div>
 </section>
 <!-- End testimonial Area -->
-
-<!-- Start brand Area -->
-<section class="brand-area">
-    <div class="container">
-        <div class="row logo-wrap">
-            <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l1.png') }}" alt="">
-            </a>
-            <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l2.png') }}" alt="">
-            </a>
-            <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l3.png') }}" alt="">
-            </a>
-            <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l4.png') }}" alt="">
-            </a>
-            <a class="col single-img" href="#">
-                <img class="d-block mx-auto" src="{{ asset('template-styles/img/l5.png') }}" alt="">
-            </a>
-        </div>
-    </div>
-</section>
-<!-- End brand Area -->
-
-<!-- start contact Area -->
-<section class="contact-area section-gap" id="contact">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-30 col-lg-8">
-                <div class="title text-center">
-                    <h1 class="mb-10">If you need, Just drop us a line</h1>
-                    <p>Who are in extremely love with eco friendly system.</p>
-                </div>
-            </div>
-        </div>
-        <form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
-            <div class="row">
-                <div class="col-lg-6 form-group">
-                    <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-
-                    <input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-
-                    <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
-                </div>
-                <div class="col-lg-6 form-group">
-                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-                    <button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
-                    <div class="mt-10 alert-msg">
-                    </div>
-                </div></div>
-        </form>
-
-    </div>
-</section>
-<!-- end contact Area -->
-
+@include('home.partials.contact-us')
 <!-- start footer Area -->
 <footer class="footer-area section-gap">
     <div class="container">
@@ -343,7 +287,6 @@
                     </p>
                     <p class="number">
                         012-6532-568-9746 <br>
-                        012-6532-569-9748
                     </p>
                 </div>
             </div>
@@ -373,13 +316,15 @@
         </div>
         <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+            <p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                All rights reserved | <strong style="color: #27A7AA">Wabjabi</strong>
+                <strong style="color: firebrick">Investiment</strong> <strong style="color: white">Limited</strong>
+            </p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             <div class="footer-social d-flex align-items-center">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-behance"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
     </div>
