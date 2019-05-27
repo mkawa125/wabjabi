@@ -23,7 +23,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>Wabjab - home</title>
+    <title>Wabjabi - home</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--
@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="{{ asset('template-styles/css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('template-styles/css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('template-styles/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 </head>
 <body>
 @include('home.partials.header')
