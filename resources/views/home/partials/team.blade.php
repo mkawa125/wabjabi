@@ -10,7 +10,7 @@
     <div class="container" style="background-color: whitesmoke">
         <div class="row d-flex justify-content-center" style="padding: 20px">
             <div class="col-md-8 pb-40 header-text">
-                <h1>Our Team</h1>
+                <h1 style="font-size: 25px; font-family: cursive; font-style: italic">Our Team</h1>
                 <p>
                     Who are in extremely love with eco friendly system.
                 </p>

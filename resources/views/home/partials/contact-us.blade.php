@@ -12,7 +12,7 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-30 col-lg-8">
                 <div class="title text-center">
-                    <h1 class="mb-10">Contact us</h1>
+                    <h1 class="mb-10" style="font-size: 25px; font-family: cursive; font-style: italic">Contact us</h1>
                     <p>If you need, Just drop us a line or find us on a google map below</p>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group">
                         <div class="input-group">
-                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+                            <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="form-control" required="" type="text">
                         </div>
                     </div>
                     <div class="form-group">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary btn-block" type="submit" style="background-color: #27A7AA">
+                    <button class="btn btn-primary btn-block" type="submit" style="background-color: #27A7AA; font-size: small">
                         Send Message <strong class="lnr lnr-arrow-right"></strong>
                     </button>
                 </div>
@@ -59,7 +59,7 @@
                         <img src="{{ asset('images/map.png') }}" alt="" class="map-box">
                     </div>
 
-                    <div class="col-md-10" style="margin: 15px auto;">
+                    <div class="col-md-10" style="margin: 15px auto; font-style: italic">
                         <label><strong style="color: firebrick">Contacts details</strong></label>
                         <p><i class="fa fa-envelope-open"></i> Address: P.O.BOX 251 DSM</p>
                         <p><i class="fa fa-map-marker"></i> Location: <strong class="text-success">Mombasa Kwa Mkolemba</strong> , DSM , Tanzania</p>

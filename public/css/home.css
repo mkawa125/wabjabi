@@ -33,3 +33,16 @@
     border-radius: 4px;
     margin-top: 20px;
 }
+.form-group .input-group input.form-control{
+    height: 20px;
+    border-radius: 4px;
+}
+.form-group .input-group input::placeholder{
+    font-style: italic;
+}
+.form-group .input-group textarea.form-control{
+    border-radius: 4px;
+}
+.form-group .input-group textarea::placeholder{
+    font-style: italic;
+}
