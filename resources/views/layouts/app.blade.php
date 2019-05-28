@@ -107,43 +107,8 @@
         </div>
     </div>
 </section>
-<!-- End service Area -->
 
-
-<!-- Start testimonial Area -->
-<section class="testimonial-area relative section-gap">
-    <div class="overlay overlay-bg"></div>
-    <div class="container">
-        <div class="row">
-            <div class="active-testimonial">
-                <div class="single-testimonial item d-flex flex-row">
-                    <div class="thumb">
-                        <img class="img-fluid" src="{{ asset('template-styles/img/user1.png') }}" alt="">
-                    </div>
-                    <div class="desc">
-                        <p>
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.
-                        </p>
-                        <h4 mt-30>Mark Alviro Wiens</h4>
-                        <p>CEO at Google</p>
-                    </div>
-                </div>
-                <div class="single-testimonial item d-flex flex-row">
-                    <div class="thumb">
-                        <img class="img-fluid" src="{{ asset('template-styles/img/user2.png') }}" alt="">
-                    </div>
-                    <div class="desc">
-                        <p>
-                            Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.
-                        </p>
-                        <h4 mt-30>Mark Alviro Wiens</h4>
-                        <p>CEO at Google</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@include('home.partials.team')
 @include('home.partials.contact-us')
 @include('home.partials.footer')
 <!-- End footer Area -->
