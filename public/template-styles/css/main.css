@@ -2381,10 +2381,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .projects-area .single-project {
-  height: 350px;
+  height: 400px;
   color: #222;
   position: relative;
+  font-family: cursive;
   overflow: hidden;
+  text-align: center;
   margin-top: 30px;
   background-repeat: no-repeat !important;
   background-size: cover !important;
