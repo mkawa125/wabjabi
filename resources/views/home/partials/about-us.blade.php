@@ -18,7 +18,7 @@
 
         <div class="row">
             <div class="col-md-5">
-                <img src="{{ asset('images/house10.jpg') }}" alt="" style="width: 100%; height: 350px; border-radius: 4px">
+                <img src="{{ asset('images/house10.jpg') }}" alt="" class="about-image">
             </div>
             <div class="col-md-7">
                 <h5 class="about-sub">About Wabjabi</h5>
