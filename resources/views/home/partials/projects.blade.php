@@ -11,7 +11,7 @@
         <div class="row d-flex justify-content-center">
             <div class="menu-content pb-60 col-lg-8">
                 <div class="title text-center">
-                    <h1 class="mb-10">Our Projects</h1>
+                    <h1 class="mb-10" style="font-size: 26px">Our Projects</h1>
                     <p>Wabjbi has a lot of projects. The following are some of projects but not limited</p>
                 </div>
             </div>

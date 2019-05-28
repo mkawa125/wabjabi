@@ -10,7 +10,9 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-8 pb-40 header-text">
-                <h1 style="font-size: 25px; font-family: cursive">Why wabjabi should be your best choice</h1>
+                <h1 style="font-size: 25px; font-family: cursive">Why
+                    <span style="color: #27A7AA">wab</span><span style="color: firebrick">jabi</span>
+                    should be your best choice</h1>
                 <p style="font-family: cursive">
                     <strong>Who are in extremely love with eco friendly system.</strong>
                 </p>

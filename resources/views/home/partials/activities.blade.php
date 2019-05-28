@@ -13,7 +13,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="menu-content pb-60 col-lg-8">
                     <div class="title text-center">
-                        <h1 class="mb-10">Our Main Products</h1>
+                        <h1 class="mb-10" style="font-family: cursive; font-size: 26px">Our Main Products</h1>
                     </div>
                 </div>
             </div>
