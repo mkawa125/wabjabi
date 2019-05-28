@@ -42,6 +42,7 @@
 <body>
 @include('home.partials.header')
 @include('home.partials.banner')
+@include('home.partials.about-us')
 @include('home.partials.activities')
 @include('home.partials.projects')
 @include('home.partials.why-wabjabi')
