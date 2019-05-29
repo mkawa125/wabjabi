@@ -19,14 +19,14 @@
             </div>
             <div class="row">
                 <div class="single-feature col-lg-3">
-                    <img src="{{ asset('template-styles/img/f1.png') }}" alt="">
+                    <img src="{{ asset('images/plot.jpeg') }}" alt="" class="activity-icons">
                     <h4 class="pt-20 pb-20">Plot Loan</h4>
                     <p>
                         This loan is provided to all Tanzanian people, Downpayment of plot loan is ranging 5-40% it depends with the project location,
                     </p>
                 </div>
                 <div class="single-feature col-lg-4">
-                    <img src="{{ asset('template-styles/img/f2.png') }}" alt="">
+                    <img src="{{ asset('images/farm.jpeg') }}" alt="" class="activity-icons">
                     <h4 class="pt-20 pb-20">Farm Loan</h4>
                     <p>
                         Get your farm and pay in chunk through a year, Downpayment of plot loan is ranging 5-40% it depends with the project location
@@ -34,7 +34,7 @@
                     </p>
                 </div>
                 <div class="single-feature col-lg-5">
-                    <img src="{{ asset('template-styles/img/f3.png') }}" alt="">
+                    <img src="{{ asset('images/apartment2.png') }}" alt="" class="apartment-icons">
                     <h4 class="pt-20 pb-20">Building of houses and apartments loan</h4>
                     <p>
                         We provide loan for construction,we build the dream house of the customer, Downpayment is 40% of all cost after estimation

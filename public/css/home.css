@@ -46,3 +46,13 @@
 .form-group .input-group textarea::placeholder{
     font-style: italic;
 }
+.activity-icons{
+    width: 150px;
+    height: 70px;
+    border-radius: 8px;
+}
+.apartment-icons{
+    width: 100px;
+    height: 70px;
+    border-radius: 8px;
+}
