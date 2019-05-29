@@ -72,5 +72,17 @@
 <script src="{{ asset('template-styles/js/jquery.counterup.min.js') }}"></script>
 <script src="{{ asset('template-styles/js/mail-script.js') }}"></script>
 <script src="{{ asset('template-styles/js/main.js') }}"></script>
+@if ($message = Session::get('message'))
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "newestOnTop": false,
+            "positionClass": "toast-bottom-right",
+            "timeOut": "2000",
+            "title": 'Success',
+        };
+        toastr.success('Message sent successfully', 'Successfully');
+    </script>
+@endif
 </body>
 </html>

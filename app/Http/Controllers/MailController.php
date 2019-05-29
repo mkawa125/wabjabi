@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class MailController extends Controller
 {
     public function sendMail(){
-        $message = 'message sent';
+        $message = 'Message Sent Successfully';
         return redirect()->back()->with('message', $message);
     }
 }
