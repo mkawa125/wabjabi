@@ -36,7 +36,7 @@
                 <div class="single-service">
                     <h4><span class="lnr lnr-phone"></span>Great Support</h4>
                     <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                        Wabjabi is where you can get quick technical support until you own your dream home.
                     </p>
                 </div>
             </div>
@@ -50,9 +50,9 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="single-service">
-                    <h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+                    <h4><span class="lnr lnr-diamond"></span>Highly Recommended</h4>
                     <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                        We are highly recommended to make your dreams come true by providing make your dreams come true by providing
                     </p>
                 </div>
             </div>

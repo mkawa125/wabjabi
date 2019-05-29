@@ -17,9 +17,20 @@
                 </div>
             </div>
         </div>
-        <form class="form-area mt-60" id="myForm" action="#" method="post">
+        <form class="form-area mt-60" action="{{ route('mail.send') }}" method="post">
+            {{ csrf_field() }}
             <div class="row">
                 <div class="col-md-6">
+                    <div>
+                        @if ($message = Session::get('message'))
+                            <div class="alert alert-inv alert-inv-success alert-wth-icon alert-dismissible fade show" role="alert">
+                                {{ $message }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        @endif
+                    </div>
                     <div class="" style="margin: 15px 0 15px 0;  font-family: cursive">
                         <h4 style="font-family: cursive"><i class="fa fa-envelope"></i> Send us message</h4>
                     </div>

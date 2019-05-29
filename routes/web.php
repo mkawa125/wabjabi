@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home/index');
-});
+Route::get('/', function () { return view('home/index');});
+Route::post('/', 'MailController@sendMail')->name('mail.send');
+Route::post('sendMail', 'MailController@sendMail')->name('mail.send');

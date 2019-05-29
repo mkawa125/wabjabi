@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="{{ asset('template-styles/css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('template-styles/css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    {{--toas notification--}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 @include('home.partials.header')

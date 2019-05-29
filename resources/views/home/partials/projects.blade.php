@@ -151,9 +151,9 @@
                     </div>
                 </div>
             </div>
-            <a href="#contact" class="primary-btn header-btn text-uppercase" style="margin: 15px auto; background-color: firebrick">
-                see more projects <i class="fa fa-arrow-right"></i>
-            </a>
+            {{--<a href="#contact" class="primary-btn header-btn text-uppercase" style="margin: 15px auto; background-color: firebrick">--}}
+                {{--see more projects <i class="fa fa-arrow-right"></i>--}}
+            {{--</a>--}}
         </div>
     </div>
 </section>
