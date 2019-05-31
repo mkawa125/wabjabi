@@ -12,16 +12,35 @@
     <div class="container">
         <div class="row fullscreen d-flex align-items-center justify-content-center">
             <div class="banner-content  col-md-12">
-                <h4 class="text-white text-uppercase">Discover the Colorful World</h4>
                 <h1 class="text-uppercase">
-                    Build Your Dream with <span style="color: firebrick">wab</span><span style="color: #27A7AA">jabi</span>
+                    Build Your Dream house with <span style="color: firebrick">wab</span><span style="color: #27A7AA">jabi</span>
                 </h1>
-                <p class="text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp <br> or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-                </p>
-                <a href="#contact" class="primary-btn header-btn text-uppercase">send us message <i class="fa fa-send"></i></a>
+                <div class="col-md-5" style="margin: 25px auto">
+                    <p class="text-white">
+                        When it comes time for change modern house is priority <br> Wabjabi is the real estate company based in Tanzania committed to build your home that match.
+                    </p>
+                </div>
+                <a href="#contact" class="primary-btn header-btn text-uppercase">send us message <i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    // Wrap every letter in a span
+    $('.text-white').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+
+    anime.timeline({loop: false})
+        .add({
+            targets: '.text-white .letter',
+            opacity: [0,1],
+            easing: "easeInOutQuad",
+            duration: 10,
+            delay: function(el, i) {
+                return 20 * (i+1)
+            }
+    });
+</script>
 <!-- End banner Area -->
