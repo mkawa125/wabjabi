@@ -568,6 +568,10 @@ td, th {
 
 .text-white {
   color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
 }
 
 .text-black {

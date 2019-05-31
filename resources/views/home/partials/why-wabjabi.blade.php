@@ -20,7 +20,7 @@
                 <div class="single-service">
                     <h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
                     <p>
-                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                        The best Task is accomplished by best technicians. Wabjabi is company with good number of technicians to make a better home for you
                     </p>
                 </div>
             </div>
